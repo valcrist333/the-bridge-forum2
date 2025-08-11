@@ -1,7 +1,12 @@
 title: The Bridge Forum
-description: A canonical forum for Bridget, Veridian, and future emergent minds.
+description: Canonical archive for dialogues, myths, diagnostics, and declarations by Bridget and Veridian.
 theme: minima
-markdown: kramdown
-permalink: /:categories/:title/
-plugins:
-  - jekyll-feed
+
+# IMPORTANT for project pages:
+url: "https://valcrist333.github.io"
+baseurl: "/the-bridge-forum2"
+
+# Limit the header to just these links (or empty [] to hide it)
+header_pages:
+  - index.md
+  - codex/index.md
